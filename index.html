@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astronaut Training Academy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="stars"></div>
+
+    <div class="login-card">
+
+        <div class="logo">🚀</div>
+
+        <h1>ASTRONAUT ACADEMY</h1>
+        <p class="subtitle">YOUR SPACE JOURNEY STARTS HERE</p>
+
+        <h2>Mission Login</h2>
+        <p class="welcome">Welcome back, astronaut!</p>
+
+        <form id="loginForm">
+
+            <label>Astronaut ID / Email</label>
+            <input type="text" id="email"
+                placeholder="Enter your astronaut ID" required>
+
+            <label>Password</label>
+            <div class="password-box">
+                <input type="password" id="password"
+                    placeholder="Enter your password" required>
+                <span id="togglePassword">Show</span>
+            </div>
+
+            <div class="options">
+                <label class="remember">
+                    <input type="checkbox"> Remember me
+                </label>
+                <a href="#">Forgot password?</a>
+            </div>
+
+            <button type="submit">
+                LOGIN TO MISSION CONTROL 🚀
+            </button>
+
+            <p id="message"></p>
+
+        </form>
+
+        <p class="signup">
+            New astronaut?
+            <a href="#">Create Account</a>
+        </p>
+
+        <p class="footer">NASA-STYLE TRAINING SIMULATION</p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
